@@ -15,8 +15,9 @@ Rename a listing of files as if it were a file.
 * If the files change for other reasons (such as changing the current directory, or other applications affecting the files), press `<F5>` to refresh.
 
 # Limitations
-* No checking of duplicates
-* Does not handle files with spaces
+* No handling of files with spaces
+* No checking for duplicates on the right-hand side (which causes lost files)
+* No checking for non-existent files on the left-hand side
 * No recursive option yet
 * Cannot move to a folder that doesn't exist
 * Does not remember and restore the cursor's line number after a rename

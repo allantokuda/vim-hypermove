@@ -1,7 +1,7 @@
 function! LoadFileList()
   " Big tab stop. Allow inserting tabs.
-  set ts=60
-  set noexpandtab
+  setlocal ts=60
+  setlocal noexpandtab
   setf sh
 
   " clear the entire file
